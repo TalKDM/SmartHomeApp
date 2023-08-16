@@ -1,0 +1,40 @@
+
+
+.inputs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.inputs select {
+    width: 250px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.inputs input {
+    width: 250px;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    text-indent: 6px;
+}
+
+.inputs button {
+    background-color: #006eff;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 1.0s ease-in-out background-color;
+}
+
+.inputs button:hover {
+    background-color: #004AAD;
+    font-weight: bolder;
+}
